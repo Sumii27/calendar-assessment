@@ -1,0 +1,152 @@
+.cont {
+    border: 1px solid black;
+    max-height: 800px;
+}
+
+.left-cont {
+    background-color: rgb(221, 219, 219);
+}
+
+.right-cont {
+    background-color: white;
+}
+
+.ul-style {
+    list-style-type: none;
+}
+
+.date-text {
+    padding-top: 10px;
+}
+
+.dp-opt {
+    border-radius: 10px;
+    border: 1px solid #0b6d44;
+    margin-bottom: 20px;
+    height: 50px;
+    color: #0b6d44;
+}
+
+.cal {
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.custom-cal {
+    border: 2px solid #ccc;
+    /* Example border style */
+    border-radius: 8px;
+    /* Example border radius */
+    width: 500px;
+    height: 350px;
+    padding-top: 20px;
+}
+
+.dropdown {
+    /* background-color: red; */
+    margin-top: 20px;
+
+}
+
+.select-dropdown {
+    margin-left: 30px;
+    border-radius: 10px;
+    border: 1px solid #0b6d44;
+    margin-bottom: 5px;
+    height: 50px;
+    color: #0b6d44;
+    height: 50px;
+    width: 515px;
+}
+
+.label-dropdown {
+    margin-left: 32px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: rgb(102, 102, 102);
+}
+
+.available-slots {
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    margin-left: 32px;
+}
+
+.timezone {
+    color: rgb(102, 102, 102);
+    margin-bottom: 30px;
+    /* border: 1px solid red; */
+}
+
+.react-calendar__tile {
+    font-weight: bold;
+    color: black;
+    width: calc(100% / 7);
+    /* Example width for each date tile */
+    height: 40px;
+    /* Example height for each date tile */
+}
+
+.react-calendar__tile:enabled:active {
+    font-weight: bold;
+    color: white;
+    background-color: #0b6d44;
+    width: calc(100% / 7);
+    border-radius: 25px;
+    /* Example width for each date tile */
+    height: 40px;
+    /* Example height for each date tile */
+}
+
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+    font-weight: bold;
+    color: white;
+    /* Example color for date text */
+    background-color: #0b6d44;
+    border-radius: 25px;
+
+}
+
+.react-calendar__navigation__label__labelText {
+    color: rgb(65, 64, 64);
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    /* Your custom styles for the month name */
+}
+
+/* Adjust the color of day labels */
+.react-calendar__month-view__weekdays__weekday {
+    border-bottom: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #0b6d44;
+    /* Example color for day labels */
+}
+
+.react-calendar__tile--now {
+    font-weight: bold;
+    color: white;
+    background-color: #0b6d44;
+    border-radius: 25px;
+}
+
+.calender-box {
+    max-height: 80vh;
+    overflow: auto;
+    margin-top: 10vh;
+}
+
+.slot-list {
+    max-height: 330px;
+    overflow: auto;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.slot-list li.active {
+    background-color: #0b6d44;
+    color: #fff;
+}
